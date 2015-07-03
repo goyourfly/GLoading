@@ -1,11 +1,86 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+    tools:context=".MainActivity">
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:id="@+id/linear_option"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-</RelativeLayout>
+        <CheckBox
+            android:id="@+id/checkbox_under_actionbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UnderActionBar" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_margin="4dp"
+            android:background="#888" />
+
+        <CheckBox
+            android:id="@+id/checkbox_with_show_animation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WithShowAnimation" />
+
+        <CheckBox
+            android:id="@+id/checkbox_with_error_animation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WithErrorAnimation" />
+
+        <CheckBox
+            android:id="@+id/checkbox_with_dismiss_animation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WithDismissAnimation" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_margin="4dp"
+            android:background="#888" />
+
+        <CheckBox
+            android:id="@+id/checkbox_custom_loading_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CustomLoadingView" />
+
+        <CheckBox
+            android:id="@+id/checkbox_custom_error_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CustomErrorView" />
+
+        <CheckBox
+            android:id="@+id/checkbox_custom_root_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CustomRootView" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:onClick="onStart"
+        android:text="Start" />
+</FrameLayout>

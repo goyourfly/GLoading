@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Loading</string>
+    <string name="loading">Loading</string>
+    <string name="error">Some thing went wrong</string>
+</resources>
