@@ -1,9 +1,10 @@
+
+![图标](https://github.com/goyourfly/GLoading/blob/master/app/src/main/res/mipmap-hdpi/ic_launcher.png?raw=true)
+
 ## 显示加载中和加载失败的库，使用非常简单
 
 ## 演示：
-![加载中](https://github.com/goyourfly/GLoading/blob/master/img/loading.png?raw=true)
-
-![加载失败](https://github.com/goyourfly/GLoading/blob/master/img/error.png?raw=true)
+![效果展示](https://github.com/goyourfly/GLoading/blob/master/img/show.png?raw=true)
 
 ## 如何使用：
 
