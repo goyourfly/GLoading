@@ -11,6 +11,8 @@ import android.widget.FrameLayout;
 
 import com.goyourfly.loading.GLoading;
 
+import java.util.Locale;
+
 import butterknife.ButterKnife;
 import butterknife.InjectView;
 
