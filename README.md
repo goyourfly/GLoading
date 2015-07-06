@@ -8,7 +8,7 @@
 
 
 ### JCenter:
- ComingSoon
+    compile 'com.goyourfly.gloading:loading:0.1.0'    
 
 ### 如何使用：
 
